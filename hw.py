@@ -16,6 +16,7 @@ n2e = Entry()
 
 
 def display():
+    text_box.delete('1.0', END)
     n1 = int(n1e.get())
     n2 = int(n2e.get())
     prod = n1 * n2
